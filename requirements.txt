@@ -1,0 +1,11 @@
+# Training
+gitpython
+tensorboard>=2.2
+torch==1.7.1
+transformers>=4.2.2
+pytorch-nlp
+pytorch-lightning>=1.2.2
+
+# API
+fastapi
+uvicorn[standard]

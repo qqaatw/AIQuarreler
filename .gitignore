@@ -1,0 +1,8 @@
+__pycache__
+.vscode
+
+.cache/
+crawled_data/
+ptt_dataset/
+lightning_logs/
+api_log/

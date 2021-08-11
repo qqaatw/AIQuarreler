@@ -1,0 +1,4 @@
+ckpt_dir/
+pre_trained/
+
+!pre_trained/*.vocab
