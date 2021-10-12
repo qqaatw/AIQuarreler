@@ -57,7 +57,7 @@ Steps:
 
 A pretrained checkpoint can be found [here](https://drive.google.com/file/d/1RsnA-TphQpvjUVzd7qByY70HSW2Pxnn5/view?usp=sharing).
 
-    # An example of text genration.
+    # An example of text generation.
     python torch_generate.py -t 有沒有高雄市政府的八卦？ --path last_version3.ckpt
 
     # Use the following command to view available options: 
@@ -66,9 +66,9 @@ A pretrained checkpoint can be found [here](https://drive.google.com/file/d/1Rsn
 Here are a number of pre-defined generation strategies you can try it out, by specifying `--config_no`:
     
 0. Greedy search, meaning that the generator will always choose the most possible character on each auto-regressive step.
-1. Beam search with num_beams = 2, meaning that the generator will keep tracking up to 2 beams and return the highest probabilty sequence.
-2. Beam search with num_beams = 3, meaning that the generator will keep tracking up to 3 beams and return the highest probabilty sequence.
-3. Beam search with num_beams = 4, meaning that the generator will keep tracking up to 4 beams and return the highest probabilty sequence.
+1. Beam search with num_beams = 2, meaning that the generator will keep tracking up to 2 beams and return the highest probable sequence.
+2. Beam search with num_beams = 3, meaning that the generator will keep tracking up to 3 beams and return the highest probable sequence.
+3. Beam search with num_beams = 4, meaning that the generator will keep tracking up to 4 beams and return the highest probable sequence.
 4. Sampling from most likely 5 words. The result may vary on each run.
 5. Sampling from the minimum number of words to exceed 92 % of the probability mass. The result may vary on each run.
 
